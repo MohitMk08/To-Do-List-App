@@ -60,6 +60,7 @@ function clearStorage() {
     }
 }
 function resetForm() {
-    document.getElementById('title').value = ''; // Reset title input field
-    document.getElementById('description').value = ''; // Reset description textarea field
+    document.getElementById('title').value = '';
+    document.getElementById('description').value = '';
+    console.log("form reset.")
 }
